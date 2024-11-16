@@ -36,7 +36,7 @@ function Playgame() {
             <div>
                 <HangMan step={step} />
             </div>
-            
+            <Link to='/' >Home</Link>
             <Link to='/start' className="text-blue-500">Start Game Link</Link>
         </>
     )
